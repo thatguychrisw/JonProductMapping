@@ -1,0 +1,1072 @@
+ITEM ,CATEGORY ,SUB-CATEGORY ,CPU CODE 
+COMPUTER SYSTEMS    ,0,* ,*                                            
+DESKTOP COMPUTERS   ,0,1,*                                            
+DESKTOP SYSTEM      ,0,1,DESKTP                                       
+COMPUTER/MNTR UNIT  ,0,1,I-COMP                                       
+SMALL/SLIM SYSTEM   ,0,1,SFF                                          
+TOWER SYSTEM        ,0,1,TOWER                                        
+WORKSTATIONS        ,0,4,*                                            
+CORE 2 WORKSTATION  ,0,4,W-CORE                                       
+OPTERON-BASED WORKST,0,4,W-OPT                                        
+P4-BASED WORKST     ,0,4,W-P4                                         
+XEON-BASED WORKST   ,0,4,W-XEON                                       
+SERVER COMPUTERS    ,0,5,*                                            
+BLADE CPNT          ,0,5,B-CPNT                                       
+BLADE SERVER        ,0,5,B-SVR                                        
+TOWER SERVER        ,0,5,P-SVR                                        
+RACKMOUNT SERVER    ,0,5,RM-SVR                                       
+PORTABLE COMPUTERS  ,0,11,*                                            
+CHROMEBOOK          ,0,11,CHRMBK                                       
+NETBOOKS            ,0,11,NETBK                                        
+NOTEBOOK            ,0,11,NOTEBK                                       
+TABLET PC           ,0,11,TAB-PC                                       
+TABLETS             ,0,11,TABSYS                                       
+PERSONAL DIGITAL AST,0,21,*                                            
+BAREBONES SYSTEMS   ,0,32,*                                            
+BAREBONE NOTEBOOK   ,0,32,BB-NB                                        
+BAREB PC            ,0,32,BB-PC                                        
+BAREB SVR           ,0,32,BB-SVR                                       
+THIN CLIENT/TERMINAL,0,34,*                                            
+ALL IN ONE THIN CLIE,0,34,A-CLNT                                       
+THIN CLIENT TERMINAL,0,34,T-CLNT                                       
+GENERAL PURPOSE TERM,0,34,TERM                                         
+TERMINAL COMPONENT  ,0,34,TERM-C                                       
+POWER/RACK EQUIPMENT,1,* ,*                                            
+POWER EQUIPMENT     ,1,1,*                                            
+GENERATORS          ,1,1,GEN                                          
+POWER INVERTER      ,1,1,INVERT                                       
+LINE CONDITIONER    ,1,1,LINE-C                                       
+POWER DISTRIB UNIT  ,1,1,PDU                                          
+POWER STRIP         ,1,1,STRIP                                        
+SURGE PROTECTOR     ,1,1,SURGE                                        
+UPS                 ,1,1,UPS                                          
+UPS BATTERY         ,1,1,UPS-B                                        
+UPS COMPONENT       ,1,1,UPS-C                                        
+UPS MANAGEMENT      ,1,1,UPS-M                                        
+UPS CABLE           ,1,1,UPSCBL                                       
+VOLTAGE REGULATOR   ,1,1,V-REG                                        
+RACK EQUIPMENT      ,1,3,*                                            
+POWER DISTRIB UNIT  ,1,3,PDU                                          
+RACK ENCLOSURE      ,1,3,RACK                                         
+RACK ENCLOSURE CPNT ,1,3,RACK-C                                       
+STORAGE DEVICES     ,2,* ,*                                            
+FLOPPY/REMOVABLE DRV,2,1,*                                            
+FLOPPY DRIVE        ,2,1,FLOPPY                                       
+MAGNETO OPTICAL DRV ,2,1,MAGOPT                                       
+REMOVABLE MEDIA DRV ,2,1,REMOV                                        
+HARD DRIVES         ,2,11,*                                            
+MULTI-INTERFACE HD  ,2,11,COMBHD                                       
+EIDE HARD DRIVE     ,2,11,EIDEHD                                       
+FIBRE CHANNEL HD    ,2,11,FIBRHD                                       
+FIREWIRE HD         ,2,11,FIREHD                                       
+PCMCIA HARDDRIVE    ,2,11,PCMCHD                                       
+SAS HARD DRIVE      ,2,11,SASHD                                        
+SERIAL ATA HD       ,2,11,SATAHD                                       
+SCSI HARD DRIVE     ,2,11,SCSIHD                                       
+THUNDERBOLT HD      ,2,11,TBLTHD                                       
+USB HARD DRIVE      ,2,11,USBHD                                        
+BACKUP DEVICES      ,2,21,*                                            
+BACKUP ACCL         ,2,21,BK-ACL                                       
+HDD DUPLICATOR      ,2,21,HDDUPL                                       
+LIBRARIES           ,2,21,LIBRAR                                       
+TAPE DRIVE          ,2,21,TAPEDR                                       
+CD/DVD OPTICAL DRIVE,2,31,*                                            
+BLURAY OPTICAL DRIVE,2,31,BLURAY                                       
+CD/CD-RW DRIVE      ,2,31,CD                                           
+COMBO CD/DVD DRIVE  ,2,31,CD/DVD                                       
+CD/DVD DUPL         ,2,31,DUPLIC                                       
+DVD DRIVE           ,2,31,DVD                                          
+CD/DVD JUKE         ,2,31,JUKTWR                                       
+NETWORKED STORAGE   ,2,37,*                                            
+NAS COMPONEN        ,2,37,NAS-CP                                       
+NAS DISK SYS        ,2,37,NAS-DS                                       
+NAS HARD DRIVES     ,2,37,NAS-HD                                       
+SOLID STATE DISKS   ,2,38,*                                            
+FIBER SSD           ,2,38,FCSSD                                        
+IDE SOLID STATE DISK,2,38,IDESSD                                       
+MSATA SOLID STATE   ,2,38,MSATSD                                       
+MULTI-INTERFACE SSD ,2,38,MULSSD                                       
+PCI EXPRESS SSD     ,2,38,PCISSD                                       
+SAS SOLID STATE DISK,2,38,SASSSD                                       
+SATA SSD            ,2,38,SATSSD                                       
+THUNDERBOLT SSD     ,2,38,TBSSD                                        
+USB SOLID STATE DISK,2,38,USBSSD                                       
+DRIVE CONTROLLERS   ,2,71,*                                            
+MULTI-INTERFACE CONT,2,71,COMB-C                                       
+EIDE DRIVE CTLR     ,2,71,EIDE-C                                       
+EIDE RAID CTLR      ,2,71,EIDE-R                                       
+SAS DISK CONTROLLER ,2,71,SAS-C                                        
+SAS RAID CONTROLLER ,2,71,SAS-R                                        
+SATA DRIVE CTLR     ,2,71,SATA-C                                       
+SATA RAID           ,2,71,SATA-R                                       
+SCSI DRIVE CTLR     ,2,71,SCSI-C                                       
+SCSI RAID           ,2,71,SCSI-R                                       
+DRIVE ENCLOSURES    ,2,81,*                                            
+DISK ENCLOSURE      ,2,81,DR-ENC                                       
+REMOVABLE FRAME/TRAY,2,81,FR-CAR                                       
+RAID ENCLOSURE      ,2,81,RAID-E                                       
+FLASH MEMORY DEVICES,2,91,*                                            
+FLASH ADAPTER       ,2,91,FL-ADP                                       
+FLASH READER/CARD   ,2,91,FL-BND                                       
+FLASH CARD CASE     ,2,91,FL-CAS                                       
+FLASH MEMORY CARD   ,2,91,FL-CRD                                       
+FLASH READER/WRITER ,2,91,FL-RDR                                       
+PORTABLE FLASH DRIVE,2,91,USB-FL                                       
+SAN INFRASTRUCTURE  ,2,95,*                                            
+FC/ISCSI DISK SYST  ,2,95,FCISAN                                       
+FIBRE SAN DISK SYST ,2,95,FCSAN                                        
+FIBRE HBAS          ,2,95,FIBR-C                                       
+STORAGE GBIC/SFP    ,2,95,GBIC                                         
+ISCSI SAN DISK SYST ,2,95,ISAN                                         
+ISCSI CONTROLLER    ,2,95,ISCSI                                        
+SAN COMPONEN        ,2,95,SAN-CP                                       
+SAN DISK SYS        ,2,95,SAN-DS                                       
+STORAGE HUB         ,2,95,SAN-HB                                       
+STORAGE ROUTER      ,2,95,SAN-RT                                       
+STORAGE SWITCH      ,2,95,SAN-SW                                       
+SAN HARD DRIVES     ,2,95,SANHD                                        
+UNIFIED NTWK STORAGE,2,96,*                                            
+ENET/FC DISK SYST   ,2,96,EFC-DS                                       
+ENET UNIFIED SYSTEMS,2,96,ETH-DS                                       
+UNIFIED STORAGE CPNT,2,96,UNI-CP                                       
+DISPLAYS            ,3,* ,*                                            
+COMPUTER MONITORS   ,3,3,*                                            
+CRT MONITORS        ,3,3,CRT                                          
+LCD MONITOR         ,3,3,LCD                                          
+TOUCHSCREEN MONITORS,3,4,*                                            
+LCD TOUCHSCREEN MNTR,3,4,LCDTCH                                       
+TV DISPLAYS         ,3,5,*                                            
+LCD/TV MONTR        ,3,5,LCD-TV                                       
+PLASMA TV           ,3,5,PLASTV                                       
+TELEVISION          ,3,5,TV                                           
+MEDICAL DISPLAYS    ,3,9,*                                            
+POINT OF CARE DISPLY,3,9,CARDIS                                       
+DIAG IMG DIS        ,3,9,DI-DIS                                       
+PATIENT MNTR DISPLAY,3,9,PATDIS                                       
+COMMUNICATIONS      ,4,* ,*                                            
+MODEMS/CONNECTIVITY ,4,1,*                                            
+CABLE/DSL MODEM     ,4,1,BMODEM                                       
+COMBO MODEM/NIC     ,4,1,CMODEM                                       
+DIAL-UP MODEM       ,4,1,DMODEM                                       
+ISDN & SYNC ADAPTER ,4,1,ISDNAD                                       
+LINE SHARING DEVICE ,4,1,LINSHR                                       
+MULTI-MODEM DEVICE  ,4,1,MM-BRD                                       
+REMOTE ACCESS MODEM ,4,1,RAS                                          
+RACKMOUNT MODEMS    ,4,1,RM-MDM                                       
+VHF RADIOS & COMM   ,4,2,*                                            
+SCANNERS            ,4,2,SCAN                                         
+VHF RADIOS          ,4,2,VHFRAD                                       
+2-WAY RADIOS        ,4,2,2-WAY                                        
+VOICE MAIL/FAX EQUIP,4,3,*                                            
+INTELLIGENT FAX BRD ,4,3,FAXBRD                                       
+FAX SERVER          ,4,3,FAXSVR                                       
+VOICE MAIL SYST CPNT,4,3,VM-CP                                        
+VOICE MAIL SYST SW  ,4,3,VM-SW                                        
+VOICE MAIL SYST     ,4,3,VM-SYS                                       
+VOICE BOARD         ,4,3,VOCBRD                                       
+PHONE SYSTEMS       ,4,21,*                                            
+IP PHONES           ,4,21,IP-PH                                        
+PHONE SYSTEM CARD   ,4,21,PH-CP                                        
+PHONE STATION SET   ,4,21,PH-SET                                       
+PHONE SYSTEM SW     ,4,21,PH-SW                                        
+PBX/IP-PBX SYSTEM   ,4,21,PH-SYS                                       
+IP TELEPHONY        ,4,23,*                                            
+DSU/CSU'S           ,4,31,*                                            
+CSU/DSU/SDU CPNT    ,4,31,CSU-CP                                       
+CSU/DSU/SDU DEVICE  ,4,31,CSUDEV                                       
+MULTIPLEXORS        ,4,33,*                                            
+BROADBAND LOOP CARR ,4,33,BLC                                          
+DSL ACCESS MUX      ,4,33,DSLAM                                        
+MULTIPLEXORS        ,4,33,MUX                                          
+MULTIPLEXOR CPNT    ,4,33,MUX-CP                                       
+OPTICAL TRANSPORT   ,4,33,OPT                                          
+MOBILITY COMM DEVICE,4,41,*                                            
+MOBILE CELL MODEMS  ,4,41,CELMOD                                       
+GPS CONNECTIVITY DEV,4,41,GPS                                          
+3G/4G ROUTERS       ,4,41,MOBRTR                                       
+SMART PHONES        ,4,41,SMART                                        
+MOBILE WEARABLES    ,4,41,WEAR                                         
+WATCH PHONES        ,4,41,WTCPHN                                       
+CONSUMER TELEPHONY  ,4,51,*                                            
+CORDLESS PHONE/CPNT ,4,51,C-PHON                                       
+OTHER TELEPHONY DEV ,4,51,OTHDEV                                       
+VIDEO/AUDIO CONF.   ,4,81,*                                            
+AUDIO CONF CPNT     ,4,81,AC-CP                                        
+AUDIO CONF UNIT     ,4,81,AC-UNT                                       
+VIDEO CONF CAMERA   ,4,81,VC-CAM                                       
+VID CONFERENCE SYST ,4,81,VC-CP                                        
+VIDEO CONF CARTS    ,4,81,VC-CRT                                       
+MP VIDEO CONF SYST  ,4,81,VC-MP                                        
+VIDEO CONF SW       ,4,81,VC-SW                                        
+VIDEO CONF SYST     ,4,81,VC-SYS                                       
+WEB CONFERENCING    ,4,81,WEBCON                                       
+NETWORK DEVICES     ,5,* ,*                                            
+NETWORK INTERFACE CD,5,1,*                                            
+ATM NETWORK CARD    ,5,1,ATM-C                                        
+BOOT ROM/BRACKET    ,5,1,BOOT-R                                       
+ETHERNET NIC        ,5,1,ENET                                         
+FAST ETHERNET NIC   ,5,1,FAST-E                                       
+GIGABIT ETHERNET NIC,5,1,GBE                                          
+PHONE/POWER LINE NIC,5,1,PH-NIC                                       
+WIRELESS NETWORKING ,5,5,*                                            
+WIRELESS ROUTER     ,5,5,B-ROUT                                       
+ANTENNAS & AMPLIFIER,5,5,WL-ANT                                       
+WIRELESS AP         ,5,5,WL-AP                                        
+WIRELESS BRIDGE     ,5,5,WL-BRG                                       
+WIRELESS CABLE/CPNT ,5,5,WL-C                                         
+WIRELESS STARTER KIT,5,5,WL-KIT                                       
+WIRELES NIC         ,5,5,WL-NIC                                       
+WIRELESS SWI        ,5,5,WL-SW                                        
+SWITCHES & HUBS     ,5,21,*                                            
+CHASSIS-BASED SWITCH,5,21,CHS-SW                                       
+REPEATER            ,5,21,REPEAT                                       
+STANDALONE SWITCH   ,5,21,STD-SW                                       
+STANDALONE HUB      ,5,21,STDHUB                                       
+STACKABLE SWITCH    ,5,21,STK-SW                                       
+SWITCH & HUB CPNT   ,5,21,SW-CP                                        
+CONTENT NETWORKING  ,5,25,*                                            
+CONTENT DELIVER CPNT,5,25,CDL-SW                                       
+CONTENT DELIVERY EQU,5,25,DELIVR                                       
+CONTENT/LOAD BALANCE,5,25,LAY-SW                                       
+MEDIA STREAMING DEV ,5,25,MEDDEV                                       
+TRANSCEIVERS        ,5,31,*                                            
+MEDIA CONVERTER/CPNT,5,31,MEDIAC                                       
+TRANSCEIVER         ,5,31,TRANS                                        
+ROUTERS & COMPONENTS,5,41,*                                            
+CONFIG INTERFACE RTR,5,41,CONFIG                                       
+FIXED INTERFACE RTR ,5,41,FIXED                                        
+ROUTER CPNT         ,5,41,ROUT-C                                       
+DEVICE/TERMINAL SVR ,5,71,*                                            
+TERMINAL/CONSOLE SVR,5,71,CONSVR                                       
+DEVICE SERVERS/CPNT ,5,71,DEVSVR                                       
+REMOTE ACCESS SVR   ,5,71,RASSVR                                       
+TEST EQUIPMENT      ,5,73,*                                            
+CABLE TESTER        ,5,73,C-TEST                                       
+NETWORK ANALYSIS DEV,5,73,NET-AN                                       
+TEST EQUIPMENT CPNT ,5,73,TEST-C                                       
+SECURITY PRODUCTS   ,6,* ,*                                            
+NETWORK SECURITY    ,6,61,*                                            
+AUTHENTICATION DEVIC,6,61,AUTH                                         
+ANTI-VIRUS DEVICE   ,6,61,AVAPL                                        
+CONTENT MGMT DEVICE ,6,61,C-MGMT                                       
+FIREWALL DEVICE     ,6,61,FWAPL                                        
+IDS DEVICES/CPNT    ,6,61,IDS                                          
+NETW SECURITY CPNT  ,6,61,NS-CP                                        
+SECURITY APPLIANCE  ,6,61,SECAPL                                       
+VPN DEVICE          ,6,61,VPNAPL                                       
+PHYSICAL SECURITY   ,6,91,*                                            
+PRINTERS/OFFICE EQU ,7,* ,*                                            
+PRINTERS-HOME/OFFICE,7,1,*                                            
+COLOR LASER PRINTER ,7,1,C-LASR                                       
+BUS CARD PR         ,7,1,CARD-P                                       
+CD/DVD PRINTER      ,7,1,CDPRNT                                       
+DOT MATRIX PRINTER  ,7,1,DOT                                          
+INKJET PRINTER      ,7,1,INKJET                                       
+LABEL PRINTER       ,7,1,LABL-P                                       
+B&W LASER PRINTER   ,7,1,LASER                                        
+LINE PRINTERS       ,7,1,LINE                                         
+PHOTO PRNT          ,7,1,PHOTO                                        
+SOLID INK PRINTERS  ,7,1,SLDINK                                       
+3D PRINTERS         ,7,1,3DPRNT                                       
+PLOTTERS            ,7,11,*                                            
+LARGE COLOR PRINTER ,7,11,C-PLOT                                       
+MULTIFUNCTION PRINTR,7,33,*                                            
+COLOR LASER MULTIFUN,7,33,CL-MFP                                       
+INKJET MULTIFUNCTION,7,33,INKMFP                                       
+LASER MULTIFUNCTION ,7,33,LASMFP                                       
+OFFICE EQUIPMENT    ,7,35,*                                            
+COPY MACHINE        ,7,35,COPY                                         
+FAX MACHINE         ,7,35,FAX                                          
+OFFICE FURNITURE    ,7,35,FURN                                         
+LAMINATOR           ,7,35,LAMNTR                                       
+OFFICE ELECTRONICS  ,7,35,OFFELC                                       
+CASH REGISTERS      ,7,35,REG                                          
+PAPER & CD/DVD SHRED,7,35,SHRED                                        
+TYPEWRITER          ,7,35,TYPE                                         
+AUDIO/VIDEO DEVICES ,8,* ,*                                            
+HOME STEREO/THEATER ,8,10,*                                            
+A/V AMPS/FILTER/SPLT,8,10,AV-AMP                                       
+HOME THEATER DISTRIB,8,10,AVDIST                                       
+DIGITAL VID RECORDER,8,10,DVR                                          
+AUDIO EQUALIZER     ,8,10,EQUALZ                                       
+AV RECEIVERS        ,8,10,HREC                                         
+HOME STEREO DEVICES ,8,10,HSDEV                                        
+HOME THEATER SYSTEM ,8,10,HTSYST                                       
+AUDIO MIXER         ,8,10,MIXER                                        
+DIGITAL A/V DEVICES ,8,61,*                                            
+DIGITAL AUDIO PLAYER,8,61,AUDPLY                                       
+EBOOK READER        ,8,61,EBOOK                                        
+MULTIMEDIA PLAYER   ,8,61,MULPLY                                       
+DIGITAL PHOTO PLAYER,8,61,PHPLAY                                       
+RADIO/CD PLAYERS    ,8,61,RAD-CD                                       
+DV PLAYER/RECORDER  ,8,61,VIDPLY                                       
+VOICE RECORDER      ,8,61,VOICE                                        
+MUSIC DEVICES       ,8,81,*                                            
+ELEC/ACOUSTIC GUITAR,8,81,GUITAR                                       
+DIGITAL DRUMS       ,8,81,MUS-DR                                       
+MUSIC KEYBOARD      ,8,81,MUS-KB                                       
+KARAOKE MUSIC SYSTEM,8,81,MUSSYS                                       
+SUPPLIES & MEDIA    ,10,* ,*                                            
+PRINTER/PLOTTER SUPL,10,10,*                                            
+DOT MATRIX SUPLIES  ,10,10,D-SUPL                                       
+FAX/COPIER SUPL     ,10,10,F-SUPL                                       
+INKJET PRINTER SUPL ,10,10,I-SUPL                                       
+LASER PRINTER SUPL  ,10,10,L-SUPL                                       
+LG FORMAT PRNT SUPL ,10,10,P-SUPL                                       
+SOLID INK SUPL      ,10,10,SISUPL                                       
+THERMAL PRINTER SUPL,10,10,T-SUPL                                       
+3D PRINTER SUPPLIES ,10,10,3DSUPL                                       
+OFFICE SUPPLIES     ,10,22,*                                            
+CALC/TYPEWRITER SUPL,10,22,CALC-S                                       
+CD SLEEVE/ENVELOPE  ,10,22,CD-ENV                                       
+GEN CLEANING SUPL   ,10,22,CLEAN                                        
+DISPLAY FIXTURES    ,10,22,DSPFIX                                       
+FILING PRODUCT      ,10,22,FILING                                       
+GENERAL PURPOSE BTTY,10,22,GP-BAT                                       
+ID CARD/HOLDER/LABEL,10,22,ID-CRD                                       
+LABEL/APPLICATOR    ,10,22,LABELS                                       
+LAMINATING SUPL     ,10,22,LAMSUP                                       
+PAPER/ENVELOPE      ,10,22,PAPER                                        
+SCANNER SUPL        ,10,22,S-SUPL                                       
+DECALS/STICKER      ,10,22,STICKR                                       
+TRANSPARENCY        ,10,22,TRANSP                                       
+WRITING SUPPLIES    ,10,22,WRITE                                        
+MEDIA/CLEANING CARTR,10,30,*                                            
+CLEANING CARTRIDGE  ,10,30,DRVCLN                                       
+CD/DVD/MAGOPT MEDIA ,10,30,OPTMED                                       
+REM CARTRIDGE MEDIA ,10,30,REMMED                                       
+TAPE CART LABELS    ,10,30,TAPLBL                                       
+TAPE MEDIA          ,10,30,TAPMED                                       
+SERVICES/WARRANTIES ,12,* ,*                                            
+HELP DESK SERVICES  ,12,1,*                                            
+PHONE SUPPORT       ,12,1,PHSUPP                                       
+INTERNET SUPPORT    ,12,1,WEBSUP                                       
+INSTALLATION SERVICE,12,11,*                                            
+HW INSTALLATION SRVS,12,11,HW-INS                                       
+SW INSTALL SVCS     ,12,11,SW-INS                                       
+WARRANTIES          ,12,21,*                                            
+DEPLOY/SUPPORT SVCS ,12,21,DEPLOY                                       
+EXTENDED WARRANTY   ,12,21,EXWARR                                       
+WARRANTY RENEWAL    ,12,21,RENEW                                        
+UPGRADE WARRANTY    ,12,21,UPWARR                                       
+MANAGED SERVICES    ,12,31,*                                            
+CLOUDBLUE SERVICES  ,12,31,CBEDM                                        
+DATA CENTER VIRTUAL ,12,31,MNGDCV                                       
+ENT COMMUNICATIONS  ,12,31,MNGECO                                       
+HOSTED EXCHANGE     ,12,31,MNGHEX                                       
+HARDWARE AS A SVC   ,12,31,MNGHWS                                       
+INFRA AS A SERVICE  ,12,31,MNGIAS                                       
+NOC MANAGED SERVICES,12,31,MNGNOC                                       
+PRINT MNTR MGMT SVC ,12,31,MNGPRN                                       
+RMM MANAGED SERVICES,12,31,MNGRMM                                       
+SECURITY MANAGED SVC,12,31,MNGSEC                                       
+STORAGE MANAGED SVC ,12,31,MNGSTG                                       
+SOFTWARE AS SVCS    ,12,31,MNGSWS                                       
+VENDOR PROF SERVICES,12,41,*                                            
+CUSTOM CONSULT SVCS ,12,41,CONSUL                                       
+DEPLOY/SUPPORT SVCS ,12,41,DEPLOY                                       
+HARDWARE CONFIG SVCS,12,41,HW-CFG                                       
+INTEGRATION SVCS    ,12,41,INTEGR                                       
+INVENTORY SVCS      ,12,41,INVSVC                                       
+PROJECT MGMT SVCS   ,12,41,PR-MGT                                       
+RECOVERY SERVICES   ,12,41,RECOVR                                       
+REMOTE MONITOR SVCS ,12,41,REMMON                                       
+WARRANTY RENEWAL    ,12,41,RENEW                                        
+SITE SURVEY SVCS    ,12,41,SITE-S                                       
+SW CONFIGURATION SVC,12,41,SW-CFG                                       
+MOBILE WRLS CONFIG  ,12,41,WL-CFG                                       
+WIRELESS NETWORK SVC,12,41,WLNSVC                                       
+INGRAM MICRO SERVICE,12,51,*                                            
+IM CHOICE ADV SRVS  ,12,51,IM-CA                                        
+IM INTEGRATION SVCS ,12,51,IM-CFG                                       
+IM LOGISTICS SVCS   ,12,51,IM-FEE                                       
+IM NOTES CONTENT SVC,12,51,IMNOTE                                       
+IM SVCS NETWORK     ,12,51,IMSN                                         
+IM LOYALTY PROGRAM  ,12,51,LOYAL                                        
+PSTS ONLY           ,12,51,PSTS                                         
+COMMENT SKU         ,12,51,XXXXXX                                       
+IM LOGISTICS SPECIAL,12,52,*                                            
+CARRIER SERVICES    ,12,61,*                                            
+ASP SERVICES        ,12,61,ASPSVC                                       
+WIRELESS COMM SVCS  ,12,61,WL-SVC                                       
+PRESENTATION DEVICES,13,* ,*                                            
+PROJECTORS          ,13,2,*                                            
+DLP PROJECTOR       ,13,2,DLP-PR                                       
+LCD PROJECTOR       ,13,2,LCD-PR                                       
+LCOS PROJECTORS     ,13,2,LCOS                                         
+PROJECTOR SCREENS   ,13,16,*                                            
+PORTABLE SCREEN     ,13,16,P-SCR                                        
+PULL DOWN SCREEN    ,13,16,PD-SCR                                       
+VIDEO GAMING        ,14,* ,*                                            
+VIDEO GAME SYSTEMS  ,14,1,*                                            
+MS VIDEO GAME SYSTEM,14,1,MS-G                                         
+VIDEO GAMES         ,14,3,*                                            
+SOFTWARE            ,15,* ,*                                            
+COMMUNICATIONS SW   ,15,11,*                                            
+COMMUNICATION SW STE,15,11,COM-SW                                       
+EMAIL SOFTWARE      ,15,11,EM-SW                                        
+FAXING SW           ,15,11,FAX-SW                                       
+MESSAGING SVR SW    ,15,11,MES-SW                                       
+MOBILE/SYNC SW      ,15,11,MOB-SW                                       
+HOST ACCESS SOFTWARE,15,12,*                                            
+REMOTE ACCESS SW    ,15,12,RAS-SW                                       
+THIN CLIENT SW      ,15,12,THN-SW                                       
+TERMINAL EMULATION  ,15,12,TRM-SW                                       
+DIGITAL IMAGING SW  ,15,25,*                                            
+ANIMATION SW        ,15,25,ANM-SW                                       
+CAD/CAM SW          ,15,25,CAD-SW                                       
+COLOR MATCHING SW   ,15,25,CM-SW                                        
+CREATIVE PRINTING SW,15,25,CP-SW                                        
+DIGITAL IMG ESD NDP ,15,25,DI-NDP                                       
+DRAWING/PAINTING SW ,15,25,DRW-SW                                       
+DIGITAL SIGNAGE SW  ,15,25,DS-SW                                        
+PHOTO EDITING SW    ,15,25,EDT-SW                                       
+FONT SW             ,15,25,FNT-SW                                       
+IMAGING SUITE SW    ,15,25,IMG-SW                                       
+MULTIMEDIA PLAYER SW,15,25,MMP-SW                                       
+OCR & SCANNING SW   ,15,25,OCR-SW                                       
+VIDEO/AUDIO EDITING ,15,25,VA-SW                                        
+FINANCE SOFTWARE    ,15,33,*                                            
+ACCOUNTING SW       ,15,33,ACC-SW                                       
+ERP SOFTWARE        ,15,33,ERP-SW                                       
+PERSONAL FINANCE SW ,15,33,FIN-SW                                       
+FINANCIAL SUITE SW  ,15,33,FS-SW                                        
+PAYROLL SW          ,15,33,PAY-SW                                       
+TAX SW              ,15,33,TAX-SW                                       
+STORAGE SOFTWARE    ,15,35,*                                            
+BACK-UP SOFTWARE    ,15,35,BU-SW                                        
+DISK COPY SW        ,15,35,COP-SW                                       
+FILE RECOVERY SW    ,15,35,REC-SW                                       
+STORAGE MGMT SW     ,15,35,STG-SW                                       
+OFFICE PRODUCTIVITY ,15,39,*                                            
+CALENDAR/CONTACT MGM,15,39,CAL-SW                                       
+DESKTOP PUB SW      ,15,39,DP-SW                                        
+INTEGRATED OFFICE SW,15,39,INT-SW                                       
+LABELING SW         ,15,39,LAB-SW                                       
+PRESENTATION SW     ,15,39,PR-SW                                        
+SPREADSHEET SW      ,15,39,SS-SW                                        
+VOICE RECOGNITION SW,15,39,VOC-SW                                       
+WORDPROCESSOR SW    ,15,39,WP-SW                                        
+OPERATING SYSTEM SW ,15,41,*                                            
+DOS OS SOFTWARE     ,15,41,DOS-OS                                       
+IBM OPERATING SYSTEM,15,41,IBM-OS                                       
+LINUX OS SW         ,15,41,LIN-OS                                       
+MAC OS SOFTWARE     ,15,41,MAC-OS                                       
+NETWARE OS          ,15,41,NET-OS                                       
+OS SW ESD NDP       ,15,41,OS-NDP                                       
+UNIX OS SOFTWARE    ,15,41,UNX-OS                                       
+WIN OS SOFTWARE     ,15,41,WIN-OS                                       
+DEVELOPER SOFTWARE  ,15,43,*                                            
+APPLICATION DEV SW  ,15,43,AD-SW                                        
+DEVELOPER SUITE     ,15,43,DEV-SW                                       
+CHARTING/DIAGRAM SW ,15,43,FC-SW                                        
+OBJECT LIBRARY      ,15,43,OL-SW                                        
+PROGRAMMING LANG SW ,15,43,PRG-SW                                       
+VERSION MGMT SW     ,15,43,VER-SW                                       
+VIRTUAL REALITY SW  ,15,43,VR-SW                                        
+INTERNET/WEB DEV SW ,15,43,WD-SW                                        
+REFERENCE SOFTWARE  ,15,49,*                                            
+CAREER/RESUME DEV SW,15,49,CAR-SW                                       
+PHONE DIRECTORY SW  ,15,49,DIR-SW                                       
+ENCYCLOPEDIA SW     ,15,49,ENC-SW                                       
+INTERNET REF SW     ,15,49,IR-SW                                        
+LEGAL SOFTWARE      ,15,49,LGL-SW                                       
+LANGUAGE TRANSLATION,15,49,LNG-SW                                       
+MAP/ATLAS SW        ,15,49,MAP-SW                                       
+MEDICAL SOFTWARE    ,15,49,MED-SW                                       
+BUNDLES/REFERENCE SW,15,49,REF-SW                                       
+STATISTICS SW       ,15,49,ST-SW                                        
+TECH REFERENCE SW   ,15,49,TEC-SW                                       
+TEST PREPARATION SW ,15,49,TST-SW                                       
+EDUCATION SOFTWARE  ,15,51,*                                            
+CREATIVITY SW       ,15,51,CRE-SW                                       
+COMPUTER SCIENCE SW ,15,51,CS-SW                                        
+BUNDLED EDUCATION SW,15,51,ED-SW                                        
+FOREIGN LANGUAGE SW ,15,51,FL-SW                                        
+GEOGRAPHY SW        ,15,51,GEO-SW                                       
+LANGUAGE ARTS SW    ,15,51,LA-SW                                        
+LITERATURE SW       ,15,51,LIT-SW                                       
+MULTI-SUBJECT SW    ,15,51,MS-SW                                        
+MATH SOFTWARE       ,15,51,MTH-SW                                       
+HISTORY/NEWS SW     ,15,51,NEW-SW                                       
+READING SW          ,15,51,RDG-SW                                       
+SCIENCE SOFTWARE    ,15,51,SC-SW                                        
+STUDY SKILLS SW     ,15,51,SSK-SW                                       
+TEACHER RESOURCE SW ,15,51,TCH-SW                                       
+TYPING SOFTWARE     ,15,51,TYP-SW                                       
+WRITING SW          ,15,51,WRI-SW                                       
+GAME SOFTWARE       ,15,53,*                                            
+ACTION/ADVENTURE SW ,15,53,ACT-SW                                       
+ARCADE GAMES        ,15,53,ARC-SW                                       
+FIGHTING GAME SW    ,15,53,FGT-SW                                       
+GAME SOFTWARE       ,15,53,OTH-SW                                       
+1ST PERSON SHOOT SW ,15,53,SHT-SW                                       
+SIMULATION GAME SW  ,15,53,SIM-SW                                       
+STRATEGY GAME SW    ,15,53,STR-SW                                       
+SECURITY SOFTWARE   ,15,69,*                                            
+AUTHENTICATION SW   ,15,69,AAA-SW                                       
+ACCESS CONTROL SW   ,15,69,ACS-SW                                       
+ANTI SPAM SW        ,15,69,AS-SW                                        
+ANTI-THEFT SOFTWARE ,15,69,AT-SW                                        
+BANDWIDTH MGMT SW   ,15,69,BWM-SW                                       
+ENCRYPTION SW       ,15,69,EN-SW                                        
+CONTENT FILTER/MGMT ,15,69,FLT-SW                                       
+FIREWALL/VPN SW     ,15,69,FW-SW                                        
+INTRUSION DETECT SW ,15,69,IDS-SW                                       
+SECURITY SUITE SW   ,15,69,MFS-SW                                       
+PHYS ACCESS CTRL SW ,15,69,PAC-SW                                       
+REG COMPLIANCE SW   ,15,69,REG-SW                                       
+SECURITY MGMT SW    ,15,69,SM-SW                                        
+SURVEILLANCE SW     ,15,69,SUR-SW                                       
+VIRUS PROTECTION SW ,15,69,VP-SW                                        
+VULNERABILITY SW    ,15,69,VUL-SW                                       
+IT MANAGEMENT SW    ,15,77,*                                            
+APPLICATION MGMT SW ,15,77,AM-SW                                        
+CLUSTERING SW       ,15,77,CLS-SW                                       
+NETWORK ANALYSIS SW ,15,77,DIAGSW                                       
+HELP DESK SW        ,15,77,HD-SW                                        
+IT ASSET MMGT SW    ,15,77,INV-SW                                       
+IT MANAGEMENT SUITE ,15,77,IT-SW                                        
+NETWORK MGMT SW     ,15,77,NMG-SW                                       
+UPS MANAGEMENT SW   ,15,77,UPS-SW                                       
+VIDEO CONF SW       ,15,77,VC-SW                                        
+UTILITY SOFTWARE    ,15,79,*                                            
+FILE CONVERSION SW  ,15,79,FIL-SW                                       
+INTERNET SHARING SW ,15,79,FST-SW                                       
+SYSTEM OPTIMIZATION ,15,79,OPT-SW                                       
+O/S MGMNT/PARTITION ,15,79,OSM-SW                                       
+UTILITY SUITE       ,15,79,UT-SW                                        
+PERSONAL INTEREST SW,15,80,*                                            
+MUSIC/SOUND SW      ,15,80,MUS-SW                                       
+HEALTH/NUTRITION SW ,15,80,NUT-SW                                       
+PERSONAL ORGANIZR SW,15,80,ORG-SW                                       
+TRAVEL SW           ,15,80,TRV-SW                                       
+DATA MANAGEMENT SW  ,15,82,*                                            
+DB DEVELOPMENT SW   ,15,82,DB-DEV                                       
+DATABASE SOFTWARE   ,15,82,DB-SW                                        
+DATA MANAGEMENT SW  ,15,82,DM-SW                                        
+DOC/INFO MGMT SW    ,15,82,DOC-SW                                       
+FORMS DESIGN SW     ,15,82,FD-SW                                        
+PDF CREATION SW     ,15,82,PDF-SW                                       
+REPORT CREATION SW  ,15,82,RPT-SW                                       
+BUSINESS SOLUTION SW,15,85,*                                            
+APPLICATION SVR SW  ,15,85,APP-SW                                       
+BUS INTELLIGENCE SW ,15,85,BI-SW                                        
+CRM SOFTWARE        ,15,85,CRM-SW                                       
+E-COMMERCE SW       ,15,85,ECM-SW                                       
+HUMAN RESOURCES SW  ,15,85,HR-SW                                        
+LEARNING MGMT SW    ,15,85,LRN-SW                                       
+MIDDLEWARE SW       ,15,85,MDW-SW                                       
+PROJECT MGMT SW     ,15,85,PJ-SW                                        
+PROCESS MGMT SW     ,15,85,PM-SW                                        
+PORTAL SOFTWARE     ,15,85,POR-SW                                       
+BUS SOL SW ESD DP   ,15,85,SL-WDP                                       
+BUSINESS SOLUTION SW,15,85,SOL-SW                                       
+SERVER SUITE SW     ,15,85,SVR-SW                                       
+VIRTUALIZATION SW   ,15,90,*                                            
+HYPERVISOR SERVER SW,15,90,HV-SW                                        
+HYPERVISOR DESK SW  ,15,90,HVD-SW                                       
+HYPERVISOR MGMT SW  ,15,90,HVM-SW                                       
+HYPERVISOR MGT DT   ,15,90,HVMDSW                                       
+VIRTUALIZATION UTIL ,15,90,VU-SW                                        
+UTILITY VIRT DESKTOP,15,90,VUD-SW                                       
+PHYSICAL SECURITY   ,16,* ,*                                            
+VIDEO SURVEILLANCE  ,16,92,*                                            
+ANALOG SECURITY CAM ,16,92,ANGCAM                                       
+HYBRID VID RECORDER ,16,92,HVR                                          
+NETWORK SECURITY CAM,16,92,NV-CAM                                       
+NETWORK VIDEO RECORD,16,92,NVR                                          
+SECURITY DIG VID REC,16,92,SDVR                                         
+VIDEO ENCODERS      ,16,92,VENCDR                                       
+SECURITY COMPONENTS ,16,92,VSCPNT                                       
+VIDEO SURV ENCLOSURE,16,92,VSENCL                                       
+PHYS ACCESS CONTROL ,16,93,*                                            
+BIOMETRIC SECURITY  ,16,93,BIOMET                                       
+PHYS ACCESS CTLR MGT,16,93,PACMGT                                       
+PROXIMITY DEVICES   ,16,93,PRXDEV                                       
+PHYSICAL SEC ACCS   ,16,93,SECACC                                       
+OBSERV/SECURITY BNDL,16,93,SECBND                                       
+DETECT/FIRE/ALARM   ,16,94,*                                            
+ALARM SYSTEMS       ,16,94,ALARM                                        
+ANTI-THEFT DEVICE/SW,16,94,ATHEFT                                       
+EMERGENCY DEVICES   ,16,94,EMERG                                        
+ENVIRONMENTAL MNTR  ,16,94,ENVIRN                                       
+METAL DETECTORS     ,16,94,METAL                                        
+IMAGING DEVICES     ,17,* ,*                                            
+SCANNERS            ,17,1,*                                            
+BUS CARD SCANER     ,17,1,B-SCAN                                       
+ENT/PROD SCA        ,17,1,E-SCAN                                       
+HANDHELD SCANNER    ,17,1,H-SCAN                                       
+HOME/OFF SCA        ,17,1,O-SCAN                                       
+PHOTO SCANNER       ,17,1,P-SCAN                                       
+SHEETFED SCANNER    ,17,1,S-SCAN                                       
+3D SCANNER          ,17,1,3-SCAN                                       
+BINOCULARS          ,17,2,*                                            
+BINOCULAR GENERAL   ,17,2,BI-GU                                        
+MONOCULAR GENERAL   ,17,2,MO-GU                                        
+CAMERAS             ,17,3,*                                            
+ANALOG CAMCORDERS   ,17,3,CAMCRD                                       
+DIGTL CAMERA        ,17,3,CAMERA                                       
+CAM PRNT BND        ,17,3,CAMPRN                                       
+DV CAMCORDER        ,17,3,DIGCAM                                       
+FILM CAMERA         ,17,3,FLMCAM                                       
+UNDERWATER CAMERAS  ,17,3,UNDCAM                                       
+WEB CAMERA          ,17,3,WEBCAM                                       
+SYSTEM COMPONENTS   ,21,* ,*                                            
+MOTHERBOARDS        ,21,10,*                                            
+AMD MOBILE PROC MB  ,21,10,AMO-MB                                       
+AMD MULTI-PROC MB   ,21,10,AMP-MB                                       
+AMD SINGLE PROC MB  ,21,10,ASP-MB                                       
+INTEL MOBILE PROC MB,21,10,IMO-MB                                       
+INTEL MULTI-PROC MB ,21,10,IMP-MB                                       
+INTEL SINGLE PROC MB,21,10,ISP-MB                                       
+MOTHERBOARD CPNT    ,21,10,MB-CP                                        
+COMPUTER CASES      ,21,20,*                                            
+COMPUTER CASE CPNT  ,21,20,CAS-CP                                       
+PC COMPUTER CASE    ,21,20,PC-CAS                                       
+SERVER COMPUTER CASE,21,20,S-CASE                                       
+POWER SUPPLIES      ,21,30,*                                            
+CASE SPECIFIC POWER ,21,30,C-PWR                                        
+GENERIC POWER SUPL  ,21,30,G-PWR                                        
+SYSTEM SPECIFIC PWR ,21,30,S-PWR                                        
+PROCESSORS          ,21,50,*                                            
+AMD MULTI PROCESSORS,21,50,AMD-MP                                       
+AMD SINGLE PROCESSOR,21,50,AMD-SP                                       
+AMD MOBILE CPU      ,21,50,AMDMOB                                       
+INTEL MUL PR        ,21,50,INT-MP                                       
+INTEL SGL PR        ,21,50,INT-SP                                       
+INTEL MOBILE CPU    ,21,50,INTMOB                                       
+PROCESSOR ACCELRATOR,21,50,P-ACCL                                       
+ULTRASPARC PROCESSOR,21,50,SPARC                                        
+MEMORY              ,21,60,*                                            
+GENERIC MEMORY      ,21,60,STDMEM                                       
+PROPRIETARY SYS MEM ,21,60,SYSMEM                                       
+VIDEO & CAPTURE CARD,21,70,*                                            
+VIDEO CAPTURE DEVICE,21,70,C-CARD                                       
+VIDEO COMBO CARDS   ,21,70,COMBO                                        
+SCAN CONVERTER      ,21,70,SCAN-C                                       
+TV/AUDIO TUNER      ,21,70,TUNER                                        
+VIDEO CARD          ,21,70,V-CARD                                       
+SOUND CARDS         ,21,80,*                                            
+EXTERNAL SOUND SYST ,21,80,EXTSND                                       
+INTERNAL SOUND CARD ,21,80,INTSND                                       
+CABLES              ,22,* ,*                                            
+COMPUTER CABLES     ,22,1,*                                            
+FIREWIRE CABLES/ADAP,22,1,FW                                           
+PHONE LINE CABLE    ,22,1,PH-CBL                                       
+SERIAL CABLE        ,22,1,SERIAL                                       
+USB CABLES & ADAPTER,22,1,USB                                          
+FILE TRANSFER CABLES,22,1,XFER                                         
+POWER CABLES        ,22,10,*                                            
+INDOOR/OUTDOOR EXTN ,22,10,EXTCRD                                       
+AC POWER CABLE      ,22,10,PWRCBL                                       
+A/V DEVICE CABLES   ,22,20,*                                            
+AUDIO & VIDEO CABLES,22,20,A/V                                          
+AUDIO CABLES        ,22,20,AUDCBL                                       
+SPEAKER WIRE        ,22,20,SPKCBL                                       
+VIDEO CABLES/ADAP   ,22,20,VIDCBL                                       
+I/O DEVICE CABLES   ,22,30,*                                            
+JOYSTICK CABLES     ,22,30,JOYCBL                                       
+KB/MOUSE CABLES     ,22,30,KEYMSE                                       
+KVM SWITCH CABLE    ,22,30,KVMCBL                                       
+MODEM CABLE         ,22,30,MODEM                                        
+PRINTER CABLES/ADAPT,22,30,PRNTCB                                       
+NETWORK CABLES      ,22,40,*                                            
+ETHERNET COAX CABLE ,22,40,COAX                                         
+ETHERNET CABLE/ADAP ,22,40,ETHERN                                       
+FIBER OPTIC CABLE   ,22,40,FIBER                                        
+MODULAR CONNECTOR   ,22,40,MODULR                                       
+PROPRIETARY DEV CABL,22,40,NETCBL                                       
+TOKEN RING CABLE    ,22,40,TR-CBL                                       
+CABLING COMPONENTS  ,22,50,*                                            
+CABLE MANAGEMENT    ,22,50,CBLMGT                                       
+CABLING COMPONENTS  ,22,50,CBLMNT                                       
+PATCH PANEL/MOUNTING,22,50,CBLPNL                                       
+STRUCTURED WIRING   ,22,50,STRWIR                                       
+TOOL/TOOLKIT        ,22,50,TOOLS                                        
+STORAGE CABLES      ,22,70,*                                            
+DRIVE POWER CABLE   ,22,70,DRVPWR                                       
+EXT STORAGE CBL/ADAP,22,70,EXTCBL                                       
+INT STORAGE CABLE   ,22,70,INTCBL                                       
+PROFESSIONAL SOUND &,30,* ,*                                            
+PRO SOUND & ENT DEVI,30,1,*                                            
+DJ EQUIPMENT        ,30,1,DJDEV                                        
+PORTABLE/PA SYSTEMS ,30,1,PASYST                                       
+PRO/ENT AMPLIFIERS  ,30,1,PROAMP                                       
+PROFESSIONAL CD     ,30,1,PROCD                                        
+PRO/ENT MICROPHONES ,30,1,PROMIC                                       
+PRO/ENT SPEAKERS    ,30,1,PSPKR                                        
+PRO SOUND & ENT OPTI,30,2,*                                            
+PRO/ENT ACCESSORIES ,30,2,PACCS                                        
+INPUT/OUTPUT DEVICES,33,* ,*                                            
+SERIAL/PARALLEL & IO,33,20,*                                            
+I/O COMBO CARD      ,33,20,I/OCRD                                       
+MULTIPORT SER DEVICE,33,20,MP-SER                                       
+PARALLEL CARD       ,33,20,PARCRD                                       
+SERIAL CARD         ,33,20,SERCRD                                       
+SWITCHING DEVICES   ,33,30,*                                            
+AV SWITCHBOX/SPLITER,33,30,A/V-SW                                       
+A/V EXTENSION DEVICE,33,30,AVEXTN                                       
+KVM SWITCHE/CPNT    ,33,30,KVM-SW                                       
+SER/PAR SWITCHBOX   ,33,30,SW-BOX                                       
+USB DEVICE SWITCHBOX,33,30,USB-SW                                       
+USB & FIREWIRE CONN ,33,40,*                                            
+FIREWIRE CONNECT    ,33,40,FWCON                                        
+THUNDERBOLT CONN    ,33,40,TDRCON                                       
+USB/FIREWIRE CONECT ,33,40,USB/FW                                       
+USB CONNECTIVITY    ,33,40,USBCON                                       
+KEYBOARDS & KEYPADS ,33,50,*                                            
+KEYBOARD            ,33,50,KEYB                                         
+KEYBOARD/MOUSE COMBO,33,50,KEYCMB                                       
+KEYPAD              ,33,50,KEYPAD                                       
+POINTING DEVICES    ,33,60,*                                            
+INTERACTIVE PRES DEV,33,60,IPD                                          
+MICE                ,33,60,MICE                                         
+GRAPHICS TABLET     ,33,60,TABLET                                       
+TOUCHPAD            ,33,60,TCHPAD                                       
+TRACKBALL           ,33,60,TRKBAL                                       
+WHITEBOARD          ,33,60,WHTBRD                                       
+PC GAME CONTROLLERS ,33,70,*                                            
+GAME PAD            ,33,70,GAMEPD                                       
+JOYSTICK            ,33,70,JOYSTK                                       
+WHEEL/PEDAL         ,33,70,WHEEL                                        
+WIRELESS CONNECT DEV,33,90,*                                            
+BLUETOOTH CONNECT   ,33,90,BLUET                                        
+IR CONNECTIVITY DEV ,33,90,IRDA                                         
+TRAINING            ,40,* ,*                                            
+BUSINESS DEVELOPMENT,40,10,*                                            
+GENERAL BUSINES TRNG,40,10,GBD-TR                                       
+LEADERSHIP/MGMT TRNG,40,10,MGT-TR                                       
+PROJECT MGMT TRNG   ,40,10,PR-TR                                        
+SALES TRAINING      ,40,10,SAL-TR                                       
+CERTIFICATION TRNG  ,40,15,*                                            
+GENERAL CERT TRNG   ,40,15,CER-TR                                       
+CISCO CERT TRNG     ,40,15,CIS-TR                                       
+LINUX CERT TRNG     ,40,15,LIN-TR                                       
+MS CERTIFICATION TRN,40,15,MS-TR                                        
+NOVELL CERTIF TRNG  ,40,15,NOV-TR                                       
+COMPTIA CERT TRNG   ,40,15,TIA-TR                                       
+APPLICATION TRNG    ,40,20,*                                            
+APPLICATION TRAINING,40,20,APP-TR                                       
+DATABASE TRAINING   ,40,20,DBP-TR                                       
+E-MAIL/MESSAGE TRNG ,40,20,EM-TR                                        
+MM/GRAPHIC TRNG     ,40,20,MM-TR                                        
+OS TRAINING         ,40,20,OS-TR                                        
+SUITE TRAINING      ,40,20,STE-TR                                       
+PROGRAMMING TRNG    ,40,25,*                                            
+PROGRAMMING LANG TRN,40,25,LNG-TR                                       
+PROGRAMMING TRNG    ,40,25,PRO-TR                                       
+WEB DESIGN TRAINING ,40,25,WEB-TR                                       
+TECHNOLOGY TRNG     ,40,30,*                                            
+INTERNET/ECOM TRNG  ,40,30,ECM-TR                                       
+NETWORK TRAINING    ,40,30,NET-TR                                       
+SECURITY TRAINING   ,40,30,SEC-TR                                       
+STORAGE TRAINING    ,40,30,STR-TR                                       
+GENERAL TECH TRNG   ,40,30,TCH-TR                                       
+INGRAM MICRO TRNG   ,40,50,*                                            
+IM CLASSROOM TRNG   ,40,50,CLASTR                                       
+IM PTS TRAINING     ,40,51,*                                            
+HOME & APPLIANCES   ,50,* ,*                                            
+SMALL APPLIANCES    ,50,5,*                                            
+BEVERAGE APPLIANCE  ,50,5,BEVRGE                                       
+MIXERS/BLEND/PROCESS,50,5,BLENDR                                       
+CLOCKS              ,50,5,CLOCK                                        
+COOKER/STEAMER      ,50,5,COOK                                         
+DEHUMIDIFIERS       ,50,5,DEHUM                                        
+ICE CREAM MAKERS    ,50,5,ICECRM                                       
+MICROWAVE OVEN      ,50,5,MICRV                                        
+MICROWAVE/TOASTER   ,50,5,MICTST                                       
+OTHER ELECTRONICS   ,50,5,OTHELC                                       
+VACUUM CLEANER      ,50,5,VAC                                          
+LARGE APPLIANCES    ,50,10,*                                            
+AIR CONDITIONER     ,50,10,AIRCND                                       
+AIR FILTRATION SYST ,50,10,AIRFLT                                       
+CENTRAL VACUUMS     ,50,10,CVAC                                         
+ICE MAKERS          ,50,10,ICEMKR                                       
+COOKING APPLIANCE   ,50,10,KITCH                                        
+REFRIGERATOR        ,50,10,REFR                                         
+WASHER/DRYER        ,50,10,W/D                                          
+OUTDOOR LIVING      ,50,11,*                                            
+BACKPACKS           ,50,11,BCKPAK                                       
+COOLERS             ,50,11,COOLER                                       
+OUTDOOR LIVING      ,50,11,FLSLIT                                       
+OUTDOOR COOKING     ,50,11,ODCOOK                                       
+OUTDOOR RECREATION  ,50,11,OUTREC                                       
+TENTS & SHELTERS    ,50,11,TENTS                                        
+ARTS & CRAFTS       ,50,12,*                                            
+ELEC CUTTING MACHINE,50,12,ELECUT                                       
+HOME FURNISHINGS    ,50,13,*                                            
+BABY GEAR           ,50,13,BABY                                         
+BEDROOM FURNITURE   ,50,13,BEDFRN                                       
+COOKWARE            ,50,13,COOKW                                        
+CUTLERY/KNIVES/SERVE,50,13,CUTLRY                                       
+FOOD STORAGE        ,50,13,FOODST                                       
+HOME FURNISHINGS    ,50,13,GLASSW                                       
+PERSONAL CARE PRODUC,50,15,*                                            
+LUGGAGE & BAGS      ,50,20,*                                            
+BRIEFCASES          ,50,20,BRFCAS                                       
+CARRY-ON LUGGAGE    ,50,20,CARRY                                        
+LUGGAGE SETS        ,50,20,LUGSET                                       
+PLANNERS/PADFOLIOS  ,50,20,PLANR                                        
+ROLLING LUGGAGE     ,50,20,ROLLIN                                       
+HEALTH & WELLNESS   ,51,* ,*                                            
+HEALTH              ,51,0,*                                            
+BATH                ,51,0,BATH                                         
+BEAUTY PRODUCTS     ,51,0,BEAUTY                                       
+ENVIRONMENTAL       ,51,0,ENVIRO                                       
+WELLNESS            ,51,0,WELL                                         
+WELLNESS            ,51,1,*                                            
+APPAREL             ,51,1,APPARL                                       
+BIKING              ,51,1,BIKING                                       
+EQUIPMENT           ,51,1,EQUIP                                        
+EXERCISE            ,51,1,EXERC                                        
+JEWELRY             ,60,* ,*                                            
+JEWELRY             ,60,1,*                                            
+JEWELRY             ,60,2,*                                            
+MENS WATCHES        ,60,2,MWATCH                                       
+SPECIALTY WATCHES   ,60,2,SWATCH                                       
+UNISEX WATCHES      ,60,2,UWATCH                                       
+WATCH STRAPS & ACCS ,60,2,WACCS                                        
+WEARABLE TECHNOLOGY ,70,* ,*                                            
+VIRTUAL REALITY PROD,70,56,*                                            
+VR ACCESSORIES      ,70,56,VRACCS                                       
+VR HEADSETS         ,70,56,VRHDST                                       
+VIRTUAL REALITY SYST,70,56,VRSYST                                       
+DATA CAPTURE/POS    ,90,* ,*                                            
+ADC MOBILE TERMINALS,90,10,*                                            
+PORTABLE DATA TERM  ,90,10,MT-PT                                        
+VEHICLE MNT TERMINAL,90,10,MT-VM                                        
+RFID READER/ENCODER ,90,15,*                                            
+FIXED RFID READER   ,90,15,RR-FM                                        
+HANDHELD RFID READER,90,15,RR-HH                                        
+WRLS INFRASTRUCTURE ,90,20,*                                            
+BARCODE SCANNERS    ,90,25,*                                            
+FIXED MOUNT SCANNER ,90,25,BS-FM                                        
+HAND BARCODE SCANNER,90,25,BS-HH                                        
+IN-COUNTER SCANNER  ,90,25,BS-IC                                        
+PRESENTATION SCANNER,90,25,BS-PS                                        
+PEN BARCODE READER  ,90,25,BS-PW                                        
+BARCODE SLOT READER ,90,25,BS-SR                                        
+BARCODE VERIFIER    ,90,25,BS-VR                                        
+AUTO ID PRINTERS    ,90,30,*                                            
+CARD ENCODING PRNT  ,90,30,BP-CP                                        
+BARCODE LABEL PRNT  ,90,30,BP-LB                                        
+MOBILE LABEL PRINTER,90,30,BP-MB                                        
+RFID ENCODING PRNT  ,90,30,BP-RI                                        
+POS PRINTERS        ,90,35,*                                            
+INKJET RECEIPT PRNT ,90,35,RP-IJ                                        
+IMPACT RECEIPT PRNT ,90,35,RP-IR                                        
+MOBILE POS PRNT     ,90,35,RP-MB                                        
+MULTISTATION PRNT   ,90,35,RP-MS                                        
+THERMAL RECEIPT PRNT,90,35,RP-TR                                        
+POS TERMINALS       ,90,40,*                                            
+POS KIOSK TERM      ,90,40,PT-KS                                        
+PORTABLE POS TERM   ,90,40,PT-PT                                        
+STANDALONE POS TERM ,90,40,PT-ST                                        
+INTEGRATED TOUCHSCR ,90,40,PT-TS                                        
+POS PERIPHERALS     ,90,45,*                                            
+AUTHORIZATION TERM  ,90,45,PP-AU                                        
+POS CASH DRAWER     ,90,45,PP-CD                                        
+CHECK READER        ,90,45,PP-CR                                        
+POS KEYBOARD        ,90,45,PP-KB                                        
+MAGNETIC STRIPE RDR ,90,45,PP-MR                                        
+POLE DISPLAY        ,90,45,PP-PD                                        
+POS SCALES          ,90,45,PP-SC                                        
+POS TOUCH MONITOR   ,90,45,PP-TS                                        
+AIDC/POS SOFTWARE   ,90,50,*                                            
+AIDC/POS APP DEV SW ,90,50,SW-AD                                        
+BARCODE LABEL SW    ,90,50,SW-BL                                        
+POS DATA CAPTURE SW ,90,50,SW-DC                                        
+POS DEVICE MGMNT SW ,90,50,SW-DM                                        
+HOSPITALITY SW      ,90,50,SW-HS                                        
+MISC AIDC/POS SW    ,90,50,SW-MS                                        
+POS WRLS NTWK MGT SW,90,50,SW-NM                                        
+POS RETAILER SW     ,90,50,SW-RS                                        
+POS TERM EMUL SW    ,90,50,SW-TE                                        
+WARR & SVCS CONTRACT,90,55,*                                            
+SOLUTIONS BUNDLES   ,90,60,*                                            
+ASSET TRACK SOLUTION,90,60,SL-AT                                        
+INVENTORY SOLUTIONS ,90,60,SL-IC                                        
+PHOTO ID BUNDLES    ,90,60,SL-ID                                        
+LABELING SOLUTIONS  ,90,60,SL-LB                                        
+POS SOLUTIONS       ,90,60,SL-PS                                        
+TIME/ATTEND SOLUTION,90,60,SL-TA                                        
+WRLS ADC ACCESSORIES,90,70,*                                            
+ADC MOBILE TERM ACCS,90,70,MT-AC                                        
+RFID ACCESSORIES    ,90,70,RR-AC                                        
+AUTO ID ACCESSORIES ,90,75,*                                            
+AUTO ID PRINTER ACCS,90,75,BP-AC                                        
+BARCODE SCANNER ACCS,90,75,BS-AC                                        
+RETAIL POS ACCESSORI,90,80,*                                            
+BARCODE PRINTER ACCS,90,80,BC-AC                                        
+KIOSK ACCESSORIES   ,90,80,KS-AC                                        
+POS PERIPHERAL ACCS ,90,80,PP-AC                                        
+POS TERMINAL ACCS   ,90,80,PT-AC                                        
+POS PRINTER ACCS    ,90,80,RP-AC                                        
+POS UNIV ACCESSORIES,90,83,*                                            
+AUTO ID & POS SUPPLI,90,85,*                                            
+BARCODE PRINTER SUPL,90,85,BC-SP                                        
+AUTO ID PRINTER SUPL,90,85,BP-SP                                        
+POS PRINTER SUPL    ,90,85,RP-SP                                        
+TOYS & GAMES        ,98,* ,*                                            
+TOYS                ,98,1,*                                            
+BOARD GAMES         ,98,1,BOARD                                        
+CREATIVE/PRETEND    ,98,1,C-TOYS                                       
+MODELING CLAYS      ,98,1,CLAY                                         
+DRONE ACCESSORIES   ,98,1,DRACCS                                       
+DRONES              ,98,1,DRONES                                       
+ELECTRONIC TOYS     ,98,1,E-TOYS                                       
+RIDING TOYS         ,98,1,R-TOYS                                       
+ACCESSORIES         ,99,* ,*                                            
+DESK ACCESSORIES    ,99,10,*                                            
+CALCULATOR          ,99,10,CALC                                         
+BACK/FOOT REST      ,99,10,COMFRT                                       
+COPY HOLDER         ,99,10,COPY-H                                       
+CPU STAND           ,99,10,CPU-ST                                       
+DUST COVER          ,99,10,DUST-C                                       
+KEYBOARD ACC        ,99,10,KEYB-A                                       
+TRAVEL LIGHTS & FANS,99,10,LIGHTS                                       
+DESK ORGANIZER      ,99,10,ORGNZR                                       
+MOUSE/KEYBOARD PAD  ,99,10,PADRST                                       
+AUTO/MARINE DEVICES ,99,15,*                                            
+AUTO/MARINE ACCS    ,99,15,AMACCS                                       
+AUTO/MARINE AMPS    ,99,15,AMAMP                                        
+AUTO/MARINE RECEIVER,99,15,AMREC                                        
+AUTO/MARINE SPEAKER ,99,15,AMSPKR                                       
+AUTOMOBILE MONITOR  ,99,15,M-MNTR                                       
+AUTO PROTECTION DEV ,99,15,VSAFE                                        
+NOTEBOOK/TABLET ACCS,99,20,*                                            
+NOTEBOOK BAY EXPAN  ,99,20,NB-BAY                                       
+NOTEBOOK CARRY CASE ,99,20,NB-CAS                                       
+NOTEBOOK DOCK STATN ,99,20,NB-DOC                                       
+NOTEBOOK ACCS KIT   ,99,20,NB-KIT                                       
+NOTEBOOK POWER OPTN ,99,20,NB-PWR                                       
+TABLET PC ACCS      ,99,20,TABPEN                                       
+VHF RADIOS/COMM ACCS,99,25,*                                            
+VHF ACCESSORIES     ,99,25,VHFACC                                       
+MOBILITY ACCESSORIES,99,30,*                                            
+MOBILE ACCESSORY KIT,99,30,ACCKIT                                       
+MOBILE BT SPEAKERS  ,99,30,BTSPKR                                       
+MOBILE CARRYING CASE,99,30,CASES                                        
+GPS ACCESSORIES     ,99,30,GPSACC                                       
+MOBILE BT KEYBOARDS ,99,30,MBTKEY                                       
+MOBILE HEADSET ACCS ,99,30,MHDACC                                       
+MOBILE MOUNTS/STANDS,99,30,MNTSTD                                       
+MOBILE CABLE NOT PWR,99,30,MOBCBL                                       
+MOBILE HEADSETS     ,99,30,MOBLHD                                       
+MOBILE POWER OPTIONS,99,30,PWROPT                                       
+MOBILE SCREEN PROT  ,99,30,SCREEN                                       
+MOBILE SIM CARD     ,99,30,SIMCRD                                       
+SMART WATCHES       ,99,30,SMTWTC                                       
+BLUETOOH SPKRPHONE  ,99,30,SPKRPH                                       
+MOBILE STYLUS       ,99,30,STYLUS                                       
+SMART WATCH ACCS    ,99,30,WTCACC                                       
+MONITOR ACCESSORIES ,99,40,*                                            
+CONVERTER BOX       ,99,40,CONVRT                                       
+SMART DISPLAY ACCS  ,99,40,DISP-A                                       
+LCD DISPLAY CARRY   ,99,40,LCDCAS                                       
+ANTI-GLARE FILTER   ,99,40,MNTR-F                                       
+MONITOR/TV STANDS   ,99,40,MNTR-L                                       
+MONITOR TOUCH ADAPT ,99,40,MNTR-T                                       
+NOTEBOOK DOCK STATN ,99,40,NB-DOC                                       
+REMOTE CONTROL      ,99,40,REMOTE                                       
+TV ACCESSORIES      ,99,40,TVACCS                                       
+STORAGE ACCESSORIES ,99,45,*                                            
+TAPE ARRAY COMPONENT,99,45,ARRY-C                                       
+DRV CTLR CPN        ,99,45,CTLR-C                                       
+PORTABLE DRIVE CARRY,99,45,DR-CAS                                       
+DRIVE INTERFACE CONV,99,45,DR-CVT                                       
+ENCLOSURE CPNT      ,99,45,E-CPNT                                       
+LIBRARY CPNT        ,99,45,LIB-CP                                       
+OPTICAL DEVICE CPNT ,99,45,OPT-CP                                       
+SPACE MGMT PRODUCT  ,99,45,SPACE                                        
+JEWEL CASES         ,99,45,ST-JWL                                       
+DRIVE MOUNTING HW   ,99,45,ST-MNT                                       
+DRIVE AC POWER ADAPT,99,45,ST-PWR                                       
+MEDIA STORAGE CASE  ,99,45,ST-STR                                       
+DATA TRANSFER KIT   ,99,45,ST-XFR                                       
+TRANSIT CASES       ,99,45,TRNCAS                                       
+PRINTER/PLOTTER ACCS,99,50,*                                            
+SPINDLE/ROLL FEED   ,99,50,PLOT-S                                       
+PRINTER CARRY CASE  ,99,50,PR-CAR                                       
+PRINT SERVER        ,99,50,PR-CRD                                       
+PRINTER DUPLEX UNIT ,99,50,PR-DUP                                       
+PRINTER FONT UPGR   ,99,50,PR-LNG                                       
+PRINTER MANUALS     ,99,50,PR-MAN                                       
+PRINTER MEMORY      ,99,50,PR-MEM                                       
+PRINTER/FAX OPTION  ,99,50,PR-MFP                                       
+PRINTER OUTPUT OPTN ,99,50,PR-OUT                                       
+PRINTER POWER OPTION,99,50,PR-PWR                                       
+PRINT SHARE/EXTEND  ,99,50,PR-SHR                                       
+PRINTER/PLOTTER STND,99,50,PR-STD                                       
+PRINTER TRAY/DRAWER ,99,50,PR-TRA                                       
+PUSH/PULL TRACTOR   ,99,50,PR-TRC                                       
+PRINTER UPGRADE     ,99,50,PR-UPG                                       
+PRINTER HD          ,99,50,PRNTHD                                       
+PRINTER MGMT SW     ,99,50,PRNTSW                                       
+3D PRINTER ACCS/CPNT,99,50,3DACCS                                       
+PROJECTOR ACCESSORIE,99,55,*                                            
+DOCUMENT CAMERA     ,99,55,DOCCAM                                       
+PROJECTOR CASE      ,99,55,PJ-CAS                                       
+PROJECTOR CABLE     ,99,55,PJ-CBL                                       
+PROJECTOR LEN       ,99,55,PJ-LEN                                       
+REPLACEMENT LAMP    ,99,55,PJ-LMP                                       
+PROJECTOR MOUNTING  ,99,55,PJ-MNT                                       
+PROJECTOR NTWRK ACCS,99,55,PJ-NIC                                       
+REMOTE CNTRL/POINTER,99,55,PJ-RMT                                       
+PROJECTOR SCREEN ACC,99,55,PSACCS                                       
+CAMERA ACCESSORIES  ,99,60,*                                            
+CAMERA POWER OPTION ,99,60,CAMBAT                                       
+CAMERA CASE         ,99,60,CAMCAS                                       
+CAMERA CABLE        ,99,60,CAMCBL                                       
+CAMERA DOCK/CRADLE  ,99,60,CAMDOC                                       
+CAMERA FLASH/LIGHT  ,99,60,CAMFL                                        
+CAMERA ACCESSORY KIT,99,60,CAMKIT                                       
+CAMERA LENS         ,99,60,CAMLEN                                       
+CAMERA REMOTES      ,99,60,CAMRMT                                       
+CAMERA TRIPOD       ,99,60,CAMTRI                                       
+SCANNER ACCESSORIES ,99,65,*                                            
+NETWORK SCAN SERVER ,99,65,DOCSVR                                       
+SCANNER ADF         ,99,65,SC-ADF                                       
+SCANNER SLIDE ADAPT ,99,65,SC-ADP                                       
+SCANNER CARRY CASE  ,99,65,SC-CAS                                       
+SCANNER FILM HOLDER ,99,65,SC-FDR                                       
+SCANNER INTERFACE   ,99,65,SC-I/F                                       
+SCANNER IMPRIN/ENDOR,99,65,SC-IMP                                       
+SCANNER ACCS        ,99,65,SC-KIT                                       
+PHONE/CELLULAR ACCS ,99,70,*                                            
+HEADSET ACCS        ,99,70,HD-ACC                                       
+PHONE AMP/ANTENNA   ,99,70,PH-AMP                                       
+PHONE CONNECTION KIT,99,70,PH-CON                                       
+PHONE HANDSET       ,99,70,PH-HND                                       
+PHONE POWER ACCS    ,99,70,PH-PWR                                       
+PHONE NOISE SUPPRES ,99,70,PH-SUP                                       
+WIRED PHONE HEADSETS,99,70,WIRDHD                                       
+WRLS PHONE HEADSETS ,99,70,WRLSHD                                       
+VIDEO GAME ACCS     ,99,90,*                                            
+GAME CONSOLE ACCS   ,99,90,G-ACCS                                       
+VIDEO GAME CABLES   ,99,90,G-CABL                                       
+VIDEO GAME CTLR     ,99,90,G-CTLR                                       
+VIDEO GAME EXPANSION,99,90,G-EXP                                        
+VID GAME MEMORY CARD,99,90,G-MEM                                        
+GAME ORGANIZER/CASE ,99,90,GAMCAS                                       
+VIDEO GAME ACC      ,99,90,OTHER                                        
+A/V & MUSIC ACCS    ,99,95,*                                            
+AUDIO ADAPTER       ,99,95,AUD-A                                        
+DIG A/V DEVICE ACCS ,99,95,AV-ACC                                       
+AUDIO VIDEO REMOTES ,99,95,AV-RMT                                       
+AV CLEANING SUPL    ,99,95,AVCLN                                        
+IPOD/MP3 PLAYER DOCK,99,95,AVDOCK                                       
+DISPLAY SPEAKERS    ,99,95,DISPKR                                       
+PC HEADSET/MIC COMBO,99,95,H-COMB                                       
+HOME AUDIO ACCS     ,99,95,HACCS                                        
+PC HEADSET/HEADPHONE,99,95,HEADST                                       
+PC MICROPHONE       ,99,95,MIC                                          
+SPEAKERS & SUBWOOFER,99,95,SPKR                                         
+HOME THEATER FURN   ,99,95,THFURN                                       
+HOME AUTOMATION     ,99,99,*                                            
+HOME AUTO ACCS      ,99,99,HAACCS                                       
+HOME AUTO CTLRS     ,99,99,HACTLR                                       
+HOME AUTO MODULES   ,99,99,HAMODL                                       
+HOME AUTO SENSORS   ,99,99,HASENS                                       
+HOME AUTO SWITCHES  ,99,99,HASWCH                                       

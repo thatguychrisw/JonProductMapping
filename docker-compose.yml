@@ -1,0 +1,21 @@
+version: '2'
+services:
+    app:
+        build:
+          context: ./
+          dockerfile: infrastructure/app.docker
+        links:
+          - database
+        volumes:
+          - ./:/var/www
+        environment:
+          - "DB_PORT=3306"
+          - "DB_HOST=database"
+    database:
+        image: postgres:10.1
+        environment:
+          - "POSTGRES_USER=app"
+          - "POSTGRES_PASSWORD=secret"
+          - "POSTGRES_DB=product_management"
+        ports:
+          - "5432:5432"
