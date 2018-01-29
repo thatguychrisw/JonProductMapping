@@ -74,10 +74,10 @@ class MapCategories extends Command
                 }
 
                 if ($category) {
-                    $productData = (array) $product->data;
-                    $productData['category'] = $category;
-
-                    $product->data = (object) $productData;
+                    $product->data = (object) array_merge(
+                        (array) $product->data,
+                        ['category' => $category]
+                    );
 
                     $product->save();
                 }
@@ -95,8 +95,7 @@ class MapCategories extends Command
 
         $category = $product->data->ingramCategorySubCategory;
 
-        switch(strlen($category))
-        {
+        switch (strlen($category)) {
             case 4:
                 $permutations->push(str_split($category, 2));
 
@@ -123,7 +122,7 @@ class MapCategories extends Command
                 break;
         }
 
-        $permutations->transform(function(array $permutation) {
+        $permutations->transform(function (array $permutation) {
             return array_map('intval', $permutation);
         });
 
