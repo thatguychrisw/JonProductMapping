@@ -20,7 +20,7 @@ select
 from products where (data->'category' is null);
 ```
 
-## Query to find all matched products
+## Query to find all mapped products
 ```sql
 select
   data->>'actionIndicator' action_indicator,
