@@ -40,7 +40,7 @@ class ImportProducts extends Command
      */
     public function handle()
     {
-        $this->alert('Importing products and categories.');
+        $this->alert('Running import:products');
 
         if ($this->option('truncate')) {
             $this->line("Truncating products and categories tables.\n");

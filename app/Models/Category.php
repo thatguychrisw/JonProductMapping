@@ -45,16 +45,16 @@ class Category extends Model implements FromDataFile
      */
     public function scopeByCpuCode(Builder $query, $cpuCode)
     {
-        return $query->where('data->cpuCode', $cpuCode);
+        return $query->whereRaw("data->>'cpuCode' = '$cpuCode'");
     }
 
     public function scopeByCategoryId(Builder $query, $categoryId)
     {
-       return $query->where('data->categoryId', $categoryId);
+        return $query->whereRaw("data->>'categoryId' = '$categoryId'");
     }
 
     public function scopeBySubCategoryId(Builder $query, $subCategoryId)
     {
-        return $query->where('data->subCategoryId', $subCategoryId);
+        return $query->whereRaw("data->>'subCategoryId' = '$subCategoryId'");
     }
 }

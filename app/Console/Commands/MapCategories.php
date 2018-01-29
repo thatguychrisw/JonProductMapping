@@ -15,7 +15,7 @@ class MapCategories extends Command
      *
      * @var string
      */
-    protected $signature = 'map:categories';
+    protected $signature = 'map:categories {--a|all}';
 
     /**
      * The console command description.
@@ -39,7 +39,8 @@ class MapCategories extends Command
      */
     public function handle()
     {
-        $this->alert('Mapping products to categories.');
+        $scope = $this->option('all') ? "all products" : "un-mapped products only";
+        $this->alert("Running map:categories; for {$scope}");
 
         $this->mapProductsToCategories();
 
@@ -48,22 +49,26 @@ class MapCategories extends Command
         $this->line('Finished.');
     }
 
-    public function mapProductsToCategories(): void
+    public function mapProductsToCategories()
     {
-        $this->info('   Warming up progress bar.', 1);
-        $bar = new ProgressBar($this->getOutput(), (new Product)->unmappedCategories()->count());
+        $this->line('Mapping products to categories.');
 
-        (new Product)->unmappedCategories()->chunk(5000, function (Collection $products) use ($bar) {
+        $this->info('   Warming up progress bar.');
+        $bar = new ProgressBar($this->getOutput(), $this->productQuery()->count());
+
+        $this->productQuery()->chunk(5000, function (Collection $products) use ($bar) {
             $products->each(function (Product $product) {
                 $categoryPermutations = $this->getCategoryPermutations($product);
-
-                $categoryGroup = (new Category)->byCpuCode($product->data->cpuCode);
 
                 $category = null;
                 foreach ($categoryPermutations as $permutation) {
                     list($categoryId, $subCategoryId) = $permutation;
 
-                    $category = $categoryGroup->byCategoryId($categoryId)->bySubCategoryId($subCategoryId)->first();
+                    $category = (new Category)
+                        ->byCpuCode($product->data->cpuCode)
+                        ->byCategoryId($categoryId)
+                        ->bySubCategoryId($subCategoryId)
+                        ->first();
 
                     if ($category) break;
                 }
@@ -78,8 +83,10 @@ class MapCategories extends Command
                 }
             });
 
-            $bar->advance(5000);
+            $bar->advance($products->count());
         });
+
+        $this->line("\n Done. \n");
     }
 
     private function getCategoryPermutations(Product $product)
@@ -100,16 +107,51 @@ class MapCategories extends Command
                 $permutations->push([substr($category, 0, -1), $category{2}]);
 
                 break;
+
+            case 2:
+                $permutations->push([$category{0}, $category{1}]);
+                $permutations->push([$category{1}, $category{0}]);
+                $permutations->push([$category, 0]);
+                $permutations->push([0, $category]);
+
+                break;
+
+            case 1:
+                $permutations->push([$category, 0]);
+                $permutations->push([0, $category]);
+
+                break;
         }
+
+        $permutations->transform(function(array $permutation) {
+            return array_map('intval', $permutation);
+        });
 
         return $permutations;
     }
 
+    /**
+     * @return Product|\Illuminate\Database\Eloquent\Builder
+     */
+    public function productQuery()
+    {
+        $productsQuery = (new Product);
+        if (!$this->option('all')) {
+            $productsQuery = $productsQuery->unmappedCategories();
+        }
+
+        return $productsQuery;
+    }
+
     public function warnUnmapped()
     {
+        $this->line('Checking for unmapped products.');
+
         $numUnmapped = (new Product)->unmappedCategories()->count();
         if ($numUnmapped > 0) {
-            $this->warn("{$numUnmapped} products were unable to be mapped.");
+            $this->warn("   {$numUnmapped} products were unable to be mapped.");
         }
+
+        $this->line("Done. \n");
     }
 }

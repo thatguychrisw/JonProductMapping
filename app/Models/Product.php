@@ -62,6 +62,6 @@ class Product extends Model implements FromDataFile
      */
     public function scopeUnmappedCategories(Builder $query)
     {
-        return $query->whereNull('data->categories');
+        return $query->whereNull('data->category');
     }
 }
