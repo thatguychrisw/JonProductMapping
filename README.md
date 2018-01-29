@@ -10,3 +10,12 @@ Using the `--a|all` option will force a re-mapping of every product.
 ```sh
 php artisan map:products {--a|all}
 ```
+
+## Query to retrieve all un-mapped products
+```sql
+select
+  data->>'cpuCode' cpuCode,
+  data->>'ingramCategorySubCategory' ingramCategory,
+  data->>'category' category
+from products where (data->'category' is null);
+```
